@@ -11,14 +11,13 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return BlocBuilder<AuthBloc, AuthState>(
       builder: (context, state) {
-        // Ensure the user is authenticated before showing UI
         if (state is! AuthAuthenticated) {
           return const Scaffold(
             body: Center(child: Text('User not logged in')),
           );
         }
 
-        final user = state.user; // safely get user
+        final user = state.user; 
 
         return Scaffold(
           appBar: AppBar(

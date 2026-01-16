@@ -1,6 +1,3 @@
-// logout.dart
-
-
 import 'package:profile_application/domain/repositories/auth_repositories.dart';
 
 class Logout {

@@ -1,5 +1,3 @@
-
-
 import 'package:profile_application/Domain/entities/user_entity.dart';
 import 'package:profile_application/data/data_sources/data_source.dart';
 import 'package:profile_application/domain/repositories/auth_repositories.dart';

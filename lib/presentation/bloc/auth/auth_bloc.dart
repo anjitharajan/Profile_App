@@ -1,5 +1,4 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-
 import '../../../domain/usecase/get_current_user.dart';
 import '../../../domain/usecase/login.dart';
 import '../../../domain/usecase/logout.dart';

@@ -1,5 +1,3 @@
-
-
 import 'package:profile_application/Domain/entities/user_entity.dart';
 
 abstract class AuthState {}

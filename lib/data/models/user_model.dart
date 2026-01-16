@@ -1,7 +1,3 @@
-
-
-
-
 import 'package:profile_application/domain/entities/user_entity.dart';
 
 class UserModel extends UserEntity {

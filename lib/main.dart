@@ -3,7 +3,6 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:profile_application/firebase_options.dart';
 import 'package:profile_application/presentation/pages/login_page.dart';
-
 import 'injection_container.dart';
 import 'presentation/bloc/auth/auth_bloc.dart';
 import 'presentation/bloc/auth/auth_event.dart';
@@ -16,7 +15,7 @@ void main() async {
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
-  await init(); // dependency injection
+  await init(); 
 
   runApp(
     BlocProvider(
